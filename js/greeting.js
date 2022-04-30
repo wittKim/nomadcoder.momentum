@@ -21,6 +21,6 @@ if (SAVED_USERNAME == null) {
 } else {
     greeting.innerText = `Hello ${SAVED_USERNAME}`;
     greetingEvent();
-};
+}
 
 loginForm.addEventListener("submit", onLoginSubmit);
